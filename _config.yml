@@ -7,17 +7,17 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "LINA @ UofSC"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://christian-oreilly.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Christian O'Reilly"
+description              : &description "Laboratory for Integrative Neuroscience Analyses (LINA): Principled, model-driven approaches for multi-scale analysis of the brain."
+url                      : http://127.0.0.1:4000 #https://christian-oreilly.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "christian-oreilly.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "LINA @ UofSC"
+  avatar           : "lina_logo.png"
+  bio              : "Principled, model-driven approaches for multi-scale analysis of the brain."
+  location         : "Columbia, SC, USA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/myncbi/1Pk_o3EaJVZ5f/bibliography/public/"
+  googlescholar    : #"https://scholar.google.ca/citations?user=NllRAkwAAAAJ&hl=fr"
+  email            : "christian.oreilly@sc.edu"
+  researchgate     : #"https://www.researchgate.net/profile/Christian-Oreilly"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "christian-oreilly"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : #"https://www.linkedin.com/in/christian-o-reilly-69362951/"
+  orcid            : #"https://orcid.org/my-orcid?orcid=0000-0002-3149-4934"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : #"https://stackoverflow.com/users/1825043/christian-oreilly"
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -187,7 +187,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  members:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -244,6 +249,23 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _members
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: single
+      author_profile: true
+      share: true      
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true      
+
 
 # Sass/SCSS
 sass:

@@ -1,18 +1,10 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Christian O'Reilly:
+  name        : "Christian O'Reilly"
+  uri         : 
+  email       : "christian.oreilly@sc.edu"
+  bio         : "Christian O'Reilly received his B.Ing (elec eng; 2007), his M.Sc.A. (biomed eng; 2011), and his Ph.D. (biomed eng; 2012) from Polytechnique Montreal. He was a postdoc fellow at the CARSM (2012-2014) and then a NSERC postdoc fellow at McGill's Brain Imaging Center (2014-2015) where he worked on EEG sleep transients. He also worked at the EPFL (2015-2018) on modeling of the thalamocortical loop and at McGIll on brain connectivity (2020-2021). Since 2021, he is Assistant Professor at UofSC."
+  avatar      : "oreilly_christian.jpg"
+  twitter     : "OReillyChris_"
+  google_plus : 
