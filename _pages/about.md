@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "The Laboratory for Integrative Neuroscience Analyses (LINA) @ UofSC"
+title: "The Laboratory for Integrative Neuroscience Analysis (LINA) @ UofSC"
 excerpt: "About LINA"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-The Laboratory for Integrative Neuroscience Analyses (LINA) was founded in 2022 by Christian O'Reilly, shortly after he moved to the [University of South Carolina (UofSC)](https://sc.edu/), as a way to consolidate the identity of his research group and promote a model-driven approach to the study of neuroscience. It is located within the [Artificial Intelligence Institute of South Carolina (AIISC)](https://aiisc.ai/).
+The Laboratory for Integrative Neuroscience Analysis (LINA) was founded in 2022 by Christian O'Reilly, shortly after he moved to the [University of South Carolina (UofSC)](https://sc.edu/), as a way to consolidate the identity of his research group and promote a model-driven approach to the study of neuroscience. It is located within the [Artificial Intelligence Institute of South Carolina (AIISC)](https://aiisc.ai/).
 
 Mission statement
 ======
