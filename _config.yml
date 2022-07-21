@@ -1,7 +1,5 @@
-plugins:
-  - jekyll-remote-theme
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme             : "mmistakes/minimal-mistakes"
+#minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Welcome to Jekyll!
 #
@@ -101,7 +99,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "christian-oreilly"
+  github           : "lina-usc"
   google_plus      :
   keybase          :
   instagram        :
@@ -141,7 +139,6 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
@@ -293,6 +290,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-include-cache
+  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -337,5 +336,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-theme: jekyll-theme-slate

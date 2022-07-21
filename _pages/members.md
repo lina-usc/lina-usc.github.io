@@ -6,32 +6,21 @@ author_profile: true
 ---
 
 
+{% assign excerpts = "Faculty, Ph.D. graduate student, M.Sc. graduate student, Undergraduate student, Intern" | split: ", " %}
+{% assign headers = "Faculty, Ph.D. students, M.Sc. students, Undergraduate students, Interns" | split: ", " %}
 
-{% include base_path %}
-<h2>Faculty</h2>
-{% for post in site.members reversed %}
-	{% if post.excerpt == "Faculty" %}
-   		{% include archive-member.html %}
-	{% endif %}
-  
-{% endfor %}
-<h2>Ph.D. students</h2>
-{% for post in site.members reversed %}
-  {% if post.excerpt == "Ph.D. graduate student" %}
-   		{% include archive-member.html %}
-	{% endif %}
-{% endfor %}
-
-<h2>M.Sc. students</h2>
-{% for post in site.members reversed %}
-  {% if post.excerpt == "M.Sc. graduate student" %}
-   		{% include archive-member.html %}
-	{% endif %}
+{% for excerpt in excerpts %}
+	{% assign empty = true %}
+	{% for post in site.members reversed %}
+	{% if post.excerpt == excerpt %}
+			{% if empty %}
+<h2> {{ headers[forloop.parentloop.index0] }} </h2>
+				{% assign empty = false %}
+			{% endif %}
+			{% include archive-member.html %}
+		{% endif %}
+	{% endfor %}
 {% endfor %}
 
-<h2>Undegraduate students</h2>
-{% for post in site.members reversed %}
-  {% if post.excerpt == "Undergraduate student" %}
-   		{% include archive-member.html %}
-	{% endif %}
-{% endfor %}
+
+
