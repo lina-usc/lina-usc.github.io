@@ -1,3 +1,8 @@
+plugins:
+  - jekyll-remote-theme
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -136,6 +141,7 @@ exclude:
   - LICENSE
   - README
   - Rakefile
+  - assets
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
