@@ -10,12 +10,12 @@ author_profile: true
 {% assign headers = "Faculty, Ph.D. students, M.Sc. students, Undergraduate students, Interns" | split: ", " %}
 
 {% for excerpt in excerpts %}
-	{% assign empty = true %}
+	{% assign isEmpty = true %}
 	{% for post in site.members reversed %}
-	{% if post.excerpt == excerpt %}
-			{% if empty %}
+	    {% if post.excerpt == excerpt %}
+			{% if isEmpty %}
 <h2> {{ headers[forloop.parentloop.index0] }} </h2>
-				{% assign empty = false %}
+				{% assign isEmpty = false %}
 			{% endif %}
 			{% include archive-member.html %}
 		{% endif %}
