@@ -6,8 +6,8 @@ author_profile: true
 ---
 
 
-{% assign excerpts = "Faculty, Ph.D. graduate student, M.Sc. graduate student, Undergraduate student, Intern" | split: ", " %}
-{% assign headers = "Faculty, Ph.D. students, M.Sc. students, Undergraduate students, Interns" | split: ", " %}
+{% assign excerpts = "Faculty, Ph.D. graduate student, M.Sc. graduate student, Undergraduate student, Intern, Past member" | split: ", " %}
+{% assign headers = "Faculty, Ph.D. students, M.Sc. students, Undergraduate students, Interns, Past members" | split: ", " %}
 
 {% for excerpt in excerpts %}
 	{% assign isEmpty = true %}

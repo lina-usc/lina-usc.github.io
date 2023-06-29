@@ -3,7 +3,7 @@ name: <a herf = 'https://www.linkedin.com/in/sai-durga-rithvik-oruganti-4a595024
 email: orugants@email.sc.edu
 image: <img src='/images/members/sai.jpeg' width="150px" style="float:left; margin:0px 10px 0px 0px;">
 collection: members
-excerpt: Undergraduate student
+excerpt: Past member
 website: "[Home page](https://cse.sc.edu/~orugants/)"
 description: " Sai is a third year B.S.E Computer Engineering student. His research interests include Reinforcement Learning, Neuroscience, Signal Processing and Analysis." 
 ---
