@@ -5,5 +5,5 @@ image: <img src='/images/members/sai.jpeg' width="150px" style="float:left; marg
 collection: members
 excerpt: Past member
 website: "[Home page](https://cse.sc.edu/~orugants/)"
-description: " Sai is a third year B.S.E Computer Engineering student. His research interests include Reinforcement Learning, Neuroscience, Signal Processing and Analysis." 
+description: "Sai is a third year B.S.E Computer Engineering student. His research interests include Reinforcement Learning, Neuroscience, Signal Processing and Analysis. Sai was an undergrad student at the lab in 2022." 
 ---
