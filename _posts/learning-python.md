@@ -1,7 +1,7 @@
 ---
 title: 'Open resources to learn Python'
 date: 2023-06-30
-permalink: /posts/2023/06/leanring-python/
+permalink: /posts/2023/06/learning-python/
 tags:
   - python
   - coding
