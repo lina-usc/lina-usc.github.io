@@ -16,6 +16,7 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <h2 style="margin: 2em 0 0.5em;">{{ post.title }}</h2>
     <p><b>Funding : </b>{{ post.funding_source  | markdownify | remove: "<p>" | remove: "</p>" }} ({{ post.funding_amount }})</p>
+    <p><b>Dates : </b>{{ post.funding_date  | markdownify | remove: "<p>" | remove: "</p>" }} </p>
     <p><b>Investigators : </b>{{ post.investigators | markdownify | remove: "<p>" | remove: "</p>"  }}</p>
     <p><b>Description : </b>{{ post.description }}</p>
   </article>
